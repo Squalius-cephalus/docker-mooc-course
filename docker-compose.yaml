@@ -8,3 +8,5 @@ services:
     container_name: watchtower
   beermapping:
     image: ruutanakostaja/beermapping
+    ports:
+      - 8080:8080
